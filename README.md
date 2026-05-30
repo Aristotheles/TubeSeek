@@ -14,7 +14,7 @@ Tasarım olarak **Cyberpunk Dark Slate ve Glassmorphism** stiline sahip olan Tub
 
 ---
 
-## 🛠️ Temel Özellikler & Premium Modüller
+## ✨ Özellikler ve Modüller
 
 ### 🛡️ 1. API Anahtarı Kurulum Sihirbazı & Güvenlik (BYOK)
 *   **İstemci Taraflı Depolama:** YouTube Data API anahtarınız doğrudan kendi tarayıcınızın `localStorage` alanında saklanır. Harici hiçbir sunucuya veri aktarılmaz.
@@ -38,7 +38,33 @@ Tasarım olarak **Cyberpunk Dark Slate ve Glassmorphism** stiline sahip olan Tub
 
 ---
 
-## 💻 Yerel Kurulum & Çalıştırma (Local Setup)
+## 🛠️ Klasör Yapısı
+
+```text
+tubeseek/
+├── index.html          # Giriş sayfası, CSP politikaları ve Google Font yüklemeleri
+├── package.json        # Paket bağımlılıkları (lucide-react & gh-pages dahil)
+├── vite.config.js      # Vite yapılandırması (base path dahil)
+├── README.md           # Proje dokümantasyonu
+└── src/
+    ├── main.jsx        # React giriş noktası
+    ├── App.jsx         # Ana Dashboard yapısı, sekmeler, clipboard ve Bitcoin bağış arayüzü
+    ├── styles.css      # Custom neon glassmorphism tasarım sistemi (Vanilla CSS)
+    ├── index.css       # styles.css dosyasını sarmalayan dosya
+    ├── lib/
+    │   ├── youtube.js  # YouTube Arama, Detaylar, Kelime Analizi ve JSONP Autocomplete
+    │   ├── scorer.js   # Kural tabanlı 100 puanlık Türkçe root-destekli skorlama motoru
+    │   └── storage.js  # API anahtarı okuma, yazma ve doğrulama katmanı
+    └── components/
+        ├── KeySetup.jsx    # API anahtarı kurulum ekranı, kısıtlama adımları ve sihirbazı
+        ├── TitleScorer.jsx # Başlık skorlama sekmesi (dairesel SVG grafikli & CTR şablonlu)
+        ├── Competitors.jsx # Rakiplerin VPD sıralı listesi, hasatlayıcı ve açıklama yenileyici
+        └── Discovery.jsx   # Canlı YouTube otomatik tamamlama önerileri ve hızlı aktarım
+```
+
+---
+
+## 🚀 Yerel Kurulum & Çalıştırma (Local Setup)
 
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları uygulayabilirsiniz:
 
@@ -51,7 +77,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları u
     ```bash
     npm run dev
     ```
-    Tarayıcınızda `http://localhost:5173` adresine giderek TubeSeek'i kullanmaya başlayabilirsiniz!
+    Tarayıcınızda açılan adrese (genellikle `http://localhost:5173`) giderek TubeSeek'i kullanmaya başlayabilirsiniz!
 
 3.  **Üretim Sürümü Derlemesi (Build):**
     ```bash
@@ -65,42 +91,16 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları u
 
 ---
 
-## 👨‍💻 Geliştirici Hakkında: Vibe Hoca! 👋
-### 🚀 Açık Kaynak Geliştirici, Dijital Üretici & Eğitmen
+## 💖 Destek & Bağış (Support)
 
-Merhaba! Ben dünya çapındaki geliştiriciler ve içerik üreticileri için gizlilik odaklı, erişilebilir ve ücretsiz araçlar üreten bağımsız bir açık kaynak geliştiricisiyim. Yazılımdaki analitik yaklaşımımı, iş akışı otomasyonlarını ve içerik üreticiliği deneyimimi bir araya getirerek hayatı kolaylaştıran çözümler üretiyorum.
-
-### 📺 Aktif YouTube Kanallarım
-Dijital sanat, maneviyat ve müzik dünyasındaki üretimlerime aşağıdaki kanallarımdan ulaşabilirsiniz:
-*   🌌 **[Breath of Rumi](https://www.youtube.com/@BreathofRumi)** — Gönül dünyasına hitap eden tasavvufi derinlik, ney nağmeleri ve ruhu dinlendiren mistik paylaşımlar.
-*   🎵 **[Kalpten Nağme](https://www.youtube.com/@KalptenNa%C4%9Fme)** — Klasik Türk Müziği'nin eşsiz makamları, kalbe dokunan geleneksel enstrümantal icralar ve tınılar.
-*(Eski projemiz olan Ottoman Makam Beats'in fişini çektik; artık tüm gücümüzle bu iki harika kanalda yayındayız!)*
-
-### 🛠️ Teknolojik Alet Çantası (Tech Stack)
-<p align="left">
-  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=Dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" />
-</p>
-
----
-
-## 💖 Açık Kaynak Misyonuma Destek Olun
-
-Bu proje tamamen reklamsız, açık kaynaklı ve herkesin kullanımına ücretsiz olarak sunulmuştur. Eğer geliştirdiğim araçlar size zaman kazandırıyor, işlerinizi kolaylaştırıyor veya içerik üretim süreçlerinizi zenginleştiriyorsa, bu geliştirme yolculuğuna destek olabilirsiniz!
-
-Yapacağınız her destek doğrudan açık kaynaklı projelerin devamlılığına katkı sağlamakta ve **kızımın mühendislik & mimarlık alanındaki uluslararası yükseköğrenimini** finanse etmeye yardımcı olmaktadır. Nitelikli kodun herkes için özgür ve hayatta kalmasına katkıda bulunduğunuz için yürekten teşekkür ederim!
+TubeSeek tamamen ücretsiz, reklamsız ve açık kaynaklı bir projedir. Sunucu maliyeti olmadan "kendi anahtarını getir" (BYOK) yapısıyla çalışmaktadır. Eğer bu aracı beğendiyseniz ve geliştiriciye destek olmak isterseniz Bitcoin (BTC) ile bağışta bulunabilirsiniz:
 
 *   🪙 **Bitcoin (BTC) Cüzdan Adresi (BlueWallet):**
     `bc1q7kpfdc9stpnexvwgpzxl8nzaua8wfyp2ht8xxa`
-    *(Uygulama içerisinden tek tıkla kopyalayabilir veya doğrudan ekran üzerindeki dinamik QR kodu taratabilirsiniz!)*
+    *(Uygulama içerisindeki panodan tek tıkla kopyalayabilir veya doğrudan ekran üzerindeki QR kodu taratabilirsiniz!)*
 
 ---
 
-<p align="center">
-  <i>"Harika yazılımlar pahalı abonelik duvarlarının arkasına gizlenmemeli. Gelin web'i birlikte daha açık hale getirelim."</i> <br>
-  📬 İş birlikleri ve geri bildirimleriniz için bir GitHub Issue açmaktan çekinmeyin!
-</p>
+## 📄 Lisans (License)
+
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Tamamen ücretsiz olup, kodlarını istediğiniz gibi değiştirebilir, dağıtabilir veya kendi projelerinizde kullanabilirsiniz.
