@@ -320,6 +320,80 @@ export default function App() {
               </div>
             )}
           </div>
+
+          {/* Diğer Projelerimiz Kartı */}
+          <div className="glass-card" style={{ marginTop: '16px', background: 'rgba(255, 255, 255, 0.01)' }}>
+            <h4 style={{ fontSize: '13.5px', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Compass size={14} className="logo-icon" /> 
+              {lang === 'tr' ? "Diğer Üretimlerimiz" : 'Our Other Projects'}
+            </h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              
+              {/* Caption Bridge */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', borderBottom: '1px solid var(--border-light)', paddingBottom: '8px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <a 
+                    href="https://github.com/Aristotheles/CaptionBridge" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ fontSize: '12.5px', fontWeight: '600', color: 'var(--text-primary)', textDecoration: 'none' }}
+                    className="hover-underline"
+                  >
+                    🌉 Caption Bridge
+                  </a>
+                  <span style={{ fontSize: '9px', background: 'rgba(59, 130, 246, 0.1)', color: '#3b82f6', border: '1px solid rgba(59, 130, 246, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
+                    {lang === 'tr' ? 'Açık Kaynak' : 'Open Source'}
+                  </span>
+                </div>
+                <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                  {lang === 'tr' ? 'Video altyazı ve çeviri köprüsü.' : 'Subtitle translator & bridge.'}
+                </span>
+              </div>
+
+              {/* PostIT Pro */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', borderBottom: '1px solid var(--border-light)', paddingBottom: '8px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <a 
+                    href="https://github.com/Aristotheles/PostIT-Pro" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ fontSize: '12.5px', fontWeight: '600', color: 'var(--text-primary)', textDecoration: 'none' }}
+                    className="hover-underline"
+                  >
+                    📝 PostIT Pro
+                  </a>
+                  <span style={{ fontSize: '9px', background: 'rgba(59, 130, 246, 0.1)', color: '#3b82f6', border: '1px solid rgba(59, 130, 246, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
+                    {lang === 'tr' ? 'Açık Kaynak' : 'Open Source'}
+                  </span>
+                </div>
+                <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                  {lang === 'tr' ? 'Sosyal medya gönderi planlayıcı.' : 'Social media post scheduler.'}
+                </span>
+              </div>
+
+              {/* YazılıOkuPro */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <a 
+                    href="https://yaziliokupro.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ fontSize: '12.5px', fontWeight: '600', color: 'var(--text-primary)', textDecoration: 'none' }}
+                    className="hover-underline"
+                  >
+                    🗣️ YazılıOkuPro
+                  </a>
+                  <span style={{ fontSize: '9px', background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
+                    {lang === 'tr' ? 'Ticari' : 'Commercial'}
+                  </span>
+                </div>
+                <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                  {lang === 'tr' ? 'Doğal Türkçe seslendirme platformu.' : 'Lifelike Turkish text-to-speech.'}
+                </span>
+              </div>
+
+            </div>
+          </div>
         </section>
 
         {/* Sağ Sütun: Sekmeler ve İçerik */}
