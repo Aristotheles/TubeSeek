@@ -102,6 +102,17 @@ TubeSeek tamamen ücretsiz, reklamsız ve açık kaynaklı bir projedir. Sunucu 
 
 ---
 
+## 🛠️ Diğer Projelerimiz & Üretimlerimiz (Our Other Projects)
+
+Geliştirdiğimiz diğer açık kaynaklı ve ticari çözümlere aşağıdaki bağlantılardan göz atabilirsiniz:
+
+*   🌉 **[Caption Bridge](https://github.com/Aristotheles/CaptionBridge)** (Açık Kaynak) — Video altyazı ve çeviri köprüsü.
+*   📝 **[PostIT Pro](https://github.com/Aristotheles/PostIT-Pro)** (Açık Kaynak) — Sosyal medya gönderi planlayıcı.
+*   🗣️ **[YazılıOkuPro](https://yaziliokupro.com)** (Ticari) — Doğal Türkçe seslendirme platformu. [Web Sitesi](https://yaziliokupro.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.yaziliokupro.app)
+*   🇩🇪 **[GermanChunks](https://germanchunks.com)** (Açık Kaynak) — Almanca cümle segment analiz aracı. [Web Sitesi](https://germanchunks.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.germanchunks.app) | [GitHub Reposu](https://github.com/Aristotheles/GermanChunks)
+
+---
+
 ## 📄 Lisans (License)
 
 Bu proje **MIT Lisansı** ile lisanslanmıştır. Tamamen ücretsiz olup, kodlarını istediğiniz gibi değiştirebilir, dağıtabilir veya kendi projelerinizde kullanabilirsiniz.

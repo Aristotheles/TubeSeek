@@ -372,7 +372,7 @@ export default function App() {
               </div>
 
               {/* YazılıOkuPro */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', borderBottom: '1px solid var(--border-light)', paddingBottom: '8px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <a 
                     href="https://yaziliokupro.com" 
@@ -387,9 +387,42 @@ export default function App() {
                     {lang === 'tr' ? 'Ticari' : 'Commercial'}
                   </span>
                 </div>
-                <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                <span style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '4px' }}>
                   {lang === 'tr' ? 'Doğal Türkçe seslendirme platformu.' : 'Lifelike Turkish text-to-speech.'}
                 </span>
+                <div style={{ display: 'flex', gap: '8px', fontSize: '10px' }}>
+                  <a href="https://yaziliokupro.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: '600' }}>Web</a>
+                  <span style={{ color: 'var(--text-muted)' }}>|</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.yaziliokupro.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-warning)', textDecoration: 'none', fontWeight: '600' }}>Play Store</a>
+                </div>
+              </div>
+
+              {/* GermanChunks */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <a 
+                    href="https://germanchunks.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ fontSize: '12.5px', fontWeight: '600', color: 'var(--text-primary)', textDecoration: 'none' }}
+                    className="hover-underline"
+                  >
+                    🇩🇪 GermanChunks
+                  </a>
+                  <span style={{ fontSize: '9px', background: 'rgba(59, 130, 246, 0.1)', color: '#3b82f6', border: '1px solid rgba(59, 130, 246, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
+                    {lang === 'tr' ? 'Açık Kaynak' : 'Open Source'}
+                  </span>
+                </div>
+                <span style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                  {lang === 'tr' ? 'Almanca cümle segment analiz aracı.' : 'German syntax chunker.'}
+                </span>
+                <div style={{ display: 'flex', gap: '8px', fontSize: '10px' }}>
+                  <a href="https://germanchunks.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: '600' }}>Web</a>
+                  <span style={{ color: 'var(--text-muted)' }}>|</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.germanchunks.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-warning)', textDecoration: 'none', fontWeight: '600' }}>Play Store</a>
+                  <span style={{ color: 'var(--text-muted)' }}>|</span>
+                  <a href="https://github.com/Aristotheles/GermanChunks" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: '600' }}>Git</a>
+                </div>
               </div>
 
             </div>
