@@ -234,11 +234,38 @@ export default function App() {
               <Heart size={14} fill="var(--color-warning)" style={{ color: 'var(--color-warning)' }} /> 
               {lang === 'tr' ? "TubeSeek'i Destekle" : 'Support TubeSeek'}
             </h4>
-            <p style={{ fontSize: '12px', color: 'var(--text-muted)', lineHeight: '1.4', marginBottom: '10px' }}>
+            <p style={{ fontSize: '12px', color: 'var(--text-muted)', lineHeight: '1.4', marginBottom: '12px' }}>
               {lang === 'tr' 
-                ? 'Bu araç tamamen ücretsiz ve sunucusuzdur. Geliştiriciye destek olmak isterseniz Bitcoin (BTC) ile bağış yapabilirsiniz:' 
-                : 'This tool is completely free and serverless. If you wish to support the developer, you can donate Bitcoin (BTC):'}
+                ? 'Bu araç tamamen ücretsiz ve sunucusuzdur. Geliştiriciye destek olmak isterseniz Patreon üzerinden katılabilir veya Bitcoin (BTC) ile bağış yapabilirsiniz:' 
+                : 'This tool is completely free and serverless. If you wish to support the developer, you can join on Patreon or donate Bitcoin (BTC):'}
             </p>
+
+            <a 
+              href="https://patreon.com/opensource2" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-primary" 
+              style={{ 
+                background: '#F96854', 
+                color: '#ffffff', 
+                border: 'none', 
+                marginBottom: '12px', 
+                display: 'flex', 
+                justifyContent: 'center', 
+                alignItems: 'center', 
+                gap: '6px',
+                fontSize: '12.5px',
+                padding: '8px 12px',
+                textDecoration: 'none',
+                width: '100%',
+                fontWeight: '600',
+                borderRadius: '8px',
+                transition: 'all 0.2s'
+              }}
+            >
+              <Heart size={14} fill="#ffffff" />
+              <span>{lang === 'tr' ? "Patreon'da Destekçi Ol" : "Support on Patreon"}</span>
+            </a>
             
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--border-light)', borderRadius: '8px', padding: '6px 10px', width: '100%' }}>
               <span style={{ fontSize: '11px', fontFamily: 'var(--font-mono)', color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flexGrow: 1 }} title="bc1q7kpfdc9stpnexvwgpzxl8nzaua8wfyp2ht8xxa">

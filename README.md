@@ -93,8 +93,9 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları u
 
 ## 💖 Destek & Bağış (Support)
 
-TubeSeek tamamen ücretsiz, reklamsız ve açık kaynaklı bir projedir. Sunucu maliyeti olmadan "kendi anahtarını getir" (BYOK) yapısıyla çalışmaktadır. Eğer bu aracı beğendiyseniz ve geliştiriciye destek olmak isterseniz Bitcoin (BTC) ile bağışta bulunabilirsiniz:
+TubeSeek tamamen ücretsiz, reklamsız ve açık kaynaklı bir projedir. Sunucu maliyeti olmadan "kendi anahtarını getir" (BYOK) yapısıyla çalışmaktadır. Eğer bu aracı beğendiyseniz ve geliştiriciye destek olmak isterseniz Patreon üzerinden destekçi olabilir veya Bitcoin (BTC) ile bağışta bulunabilirsiniz:
 
+*   🧡 **Patreon Destekçisi Ol:** [Patreon (opensource2)](https://patreon.com/opensource2)
 *   🪙 **Bitcoin (BTC) Cüzdan Adresi (BlueWallet):**
     `bc1q7kpfdc9stpnexvwgpzxl8nzaua8wfyp2ht8xxa`
     *(Uygulama içerisindeki panodan tek tıkla kopyalayabilir veya doğrudan ekran üzerindeki QR kodu taratabilirsiniz!)*
