@@ -409,8 +409,8 @@ export default function App() {
                   >
                     🇩🇪 GermanChunks
                   </a>
-                  <span style={{ fontSize: '9px', background: 'rgba(59, 130, 246, 0.1)', color: '#3b82f6', border: '1px solid rgba(59, 130, 246, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
-                    {lang === 'tr' ? 'Açık Kaynak' : 'Open Source'}
+                  <span style={{ fontSize: '9px', background: 'rgba(16, 185, 129, 0.1)', color: '#10b981', border: '1px solid rgba(16, 185, 129, 0.2)', padding: '1px 5px', borderRadius: '4px', textTransform: 'uppercase', fontWeight: '700' }}>
+                    {lang === 'tr' ? 'Ücretsiz' : 'Free'}
                   </span>
                 </div>
                 <span style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '4px' }}>
@@ -420,8 +420,6 @@ export default function App() {
                   <a href="https://germanchunks.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: '600' }}>Web</a>
                   <span style={{ color: 'var(--text-muted)' }}>|</span>
                   <a href="https://play.google.com/store/apps/details?id=com.germanchunks.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-warning)', textDecoration: 'none', fontWeight: '600' }}>Play Store</a>
-                  <span style={{ color: 'var(--text-muted)' }}>|</span>
-                  <a href="https://github.com/Aristotheles/GermanChunks" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: '600' }}>Git</a>
                 </div>
               </div>
 

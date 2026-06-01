@@ -55,7 +55,7 @@ Discover our other open-source and commercial products:
 *   🌉 **[Caption Bridge](https://github.com/Aristotheles/CaptionBridge)** (Open Source) — Video subtitle management and translation bridge.
 *   📝 **[PostIT Pro](https://github.com/Aristotheles/PostIT-Pro)** (Open Source) — Social media scheduler and post designer.
 *   🗣️ **[YazılıOkuPro](https://yaziliokupro.com)** (Commercial) — Premium Turkish Text-to-Speech platform. [Website](https://yaziliokupro.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.yaziliokupro.app)
-*   🇩🇪 **[GermanChunks](https://germanchunks.com)** (Open Source) — German syntax chunker and language assistant. [Website](https://germanchunks.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.germanchunks.app) | [GitHub](https://github.com/Aristotheles/GermanChunks)
+*   🇩🇪 **[GermanChunks](https://germanchunks.com)** (Free Software) — German syntax chunker and language assistant. [Website](https://germanchunks.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.germanchunks.app)
 
 ### 💖 Sponsor & Support
 
@@ -130,7 +130,7 @@ Geliştirdiğimiz diğer açık kaynaklı ve ticari çözümlere aşağıdaki ba
 *   🌉 **[Caption Bridge](https://github.com/Aristotheles/CaptionBridge)** (Açık Kaynak) — Video altyazı ve çeviri köprüsü.
 *   📝 **[PostIT Pro](https://github.com/Aristotheles/PostIT-Pro)** (Açık Kaynak) — Sosyal medya gönderi planlayıcı.
 *   🗣️ **[YazılıOkuPro](https://yaziliokupro.com)** (Ticari) — Doğal Türkçe seslendirme platformu. [Web Sitesi](https://yaziliokupro.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.yaziliokupro.app)
-*   🇩🇪 **[GermanChunks](https://germanchunks.com)** (Açık Kaynak) — Almanca cümle segment analiz aracı. [Web Sitesi](https://germanchunks.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.germanchunks.app) | [GitHub Reposu](https://github.com/Aristotheles/GermanChunks)
+*   🇩🇪 **[GermanChunks](https://germanchunks.com)** (Ücretsiz) — Almanca cümle segment analiz aracı. [Web Sitesi](https://germanchunks.com) | [Google Play Store](https://play.google.com/store/apps/details?id=com.germanchunks.app)
 
 ### 💖 Destek & Bağış (Support)
 
